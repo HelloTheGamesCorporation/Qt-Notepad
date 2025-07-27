@@ -29,12 +29,15 @@ class Notepad(QMainWindow):
 				background-color: #444;
 				color: white;
 				font-size: 24px;
+				border-radius: 5px;
 			}
 
 			QListWidget {
 				background-color: #444;
 				color: white;
 				font-size: 24px;
+				border: 1px solid #666;
+				border-radius: 5px;
 			}
 
 			QInputDialog {
@@ -57,10 +60,12 @@ class Notepad(QMainWindow):
 				border: 1px solid #666;
 				padding: 5px;
 				width: 65px;
+				border-radius: 5px;
 			}
 
 			QPushButton:hover {
 				border: 3px solid #666;
+				border-radius: 7px;
 			}
 			"""
 			)
@@ -173,12 +178,16 @@ class Notepad(QMainWindow):
 				background-color: white;
 				color: black;
 				font-size: 24px;
+				border: 1px solid #ccc;
+				border-radius: 5px;
 			}
 
 			QListWidget {
 				background-color: white;
 				color: black;
 				font-size: 24px;
+				border: 1px solid #ccc;
+				border-radius: 5px;
 			}
 
 			QInputDialog {
@@ -200,11 +209,13 @@ class Notepad(QMainWindow):
 				color: black;
 				border: 1px solid #ccc;
 				padding: 5px;
-				width: 50px;
+				width: 65px;
+				border-radius: 5px;
 			}
 
 			QPushButton:hover {
 				border: 3px solid #ccc;
+				border-radius: 7px;
 			}
 			"""
 			)
@@ -218,6 +229,8 @@ class Notepad(QMainWindow):
 			QTextEdit {
 				background-color: #444;
 				color: white;
+				border: 1px solid #666;
+				border-radius: 5px;
 				font-size: 24px;
 			}
 
@@ -225,6 +238,8 @@ class Notepad(QMainWindow):
 				background-color: #444;
 				color: white;
 				font-size: 24px;
+				border: 1px solid #666;
+				border-radius: 5px;
 			}
 
 			QInputDialog {
@@ -245,12 +260,14 @@ class Notepad(QMainWindow):
 				background-color: #555;
 				color: white;
 				border: 1px solid #666;
+				border-radius: 5px;
 				padding: 5px;
-				width: 50px;
+				width: 65px;
 			}
 
 			QPushButton:hover {
 				border: 3px solid #666;
+				border-radius: 7px;
 			}
 			"""
 			)
